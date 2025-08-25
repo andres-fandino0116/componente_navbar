@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Opcional: tu propio color de marca */
+@layer utilities {
+  .bg-marca {
+    background-color: #1e40af; /* azul personalizado */
+  }
+}
